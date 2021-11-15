@@ -1,1 +1,11 @@
-/* styles go here */
+html {
+  font-style: normal;
+}
+
+.form-block {
+  margin-bottom: 20px;
+}
+
+.block-input:not(:last-of-type) {
+  padding-bottom: 10px;
+}
