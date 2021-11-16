@@ -3,5 +3,5 @@
 }
 
 .blockInput:not(:last-of-type) {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
