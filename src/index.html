@@ -11,17 +11,14 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       onsubmit="onSubmit()"
     >
-
-      <fieldset class="form-block">
-
+      <fieldset class="formBlock">
         <legend>Personal information</legend>
-        <div class="block-input">
+        <div class="blockInput">
           <label for="surname">
             Surname:
           </label>
@@ -34,7 +31,7 @@
           >
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="name">
             Name:
           </label>
@@ -46,8 +43,7 @@
           >
         </div>
 
-
-        <div class="block-input">
+        <div class="blockInput">
           <label for="year">
             How old are You?
           </label>
@@ -61,7 +57,7 @@
           >
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="birthday">
             Full date of birth:
           </label>
@@ -72,7 +68,7 @@
           >
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="agreement">
             I accept the term of the agreement
           </label>
@@ -84,12 +80,11 @@
         </div>
       </fieldset>
 
-      <fieldset class="form-block">
-
+      <fieldset class="formBlock">
         <legend>
           Registration
         </legend>
-        <div class="block-input">
+        <div class="blockInput">
           <label for="mail">
             E-mail:
           </label>
@@ -103,7 +98,7 @@
           >
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="pass">
             Password:
           </label>
@@ -120,33 +115,33 @@
         </div>
       </fieldset>
 
-      <fieldset class="form-block">
-
+      <fieldset class="formBlock">
         <legend>
           An interesting fact about you!
         </legend>
-        <div class="block-input">
+        <div class="blockInput">
+          <label for="toggleYes">
             Do you love cats?
-
-          <label for="toggle-yes">
+          </label>
+          <label for="toggleYes">
             <input
               type="radio"
               name="toggle"
-              id="toggle-yes"
+              id="toggleYes"
             >
             Yes
           </label>
-          <label for="toggle-no">
+          <label for="toggleNo">
             <input
               type="radio"
               name="toggle"
-              id="toggle-no"
+              id="toggleNo"
             >
             No
           </label>
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="color">
             What is your favorite color?
           </label>
@@ -157,18 +152,18 @@
           >
         </div>
 
-        <div class="block-input">
-          <label for="time-to-bed">
+        <div class="blockInput">
+          <label for="timeToBed">
             What time do you go to bed?
           </label>
           <input
             type="time"
-            name="time-to-bed"
-            id="time-to-bed"
+            name="timeToBed"
+            id="timeToBed"
           >
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="cars">
             What are your favorite brand of cars?
             <select
@@ -183,7 +178,7 @@
           </label>
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="grade">
             How do you rate our work?
           </label>
@@ -197,22 +192,22 @@
         </div>
       </fieldset>
 
-      <fieldset class="form-block">
-
+      <fieldset class="formBlock">
         <legend>
           Additional info:
         </legend>
-        <div class="block-input">
+        <div class="blockInput">
           <label for="feedback">
             Comments:
           </label>
           <textarea
             name="feedback"
             id="feedback"
-         ></textarea>
+          >
+          </textarea>
         </div>
 
-        <div class="block-input">
+        <div class="blockInput">
           <label for="recommendation">
             Would you recommend us?
           </label>
@@ -229,7 +224,6 @@
 
       <button type="submit">Submit</button>
     </form>
-
 
     <script type="text/javascript" src="./main.js"></script>
   </body>

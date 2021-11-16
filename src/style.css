@@ -1,11 +1,7 @@
-html {
-  font-style: normal;
-}
-
-.form-block {
+.formBlock {
   margin-bottom: 20px;
 }
 
-.block-input:not(:last-of-type) {
+.blockInput:not(:last-of-type) {
   padding-bottom: 10px;
 }
